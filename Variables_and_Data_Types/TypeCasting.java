@@ -1,0 +1,14 @@
+package Variables_and_Data_Types;
+import java.util.*;
+public class TypeCasting{  
+public static void main(String args[])  {  
+double d = 166.66;  
+long l = (long)d;  
+int i = (int)l;  
+System.out.println("Before conversion: "+d);  
+//fractional part lost  
+System.out.println("After conversion into long type: "+l);  
+//fractional part lost  
+System.out.println("After conversion into int type: "+i);  
+    }  
+}  
